@@ -304,6 +304,9 @@ width: 100%;
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             }
+            .container-1> h4{
+                font-size: 30px;
+            } 
         .items{
             padding-left: 0px;
         }
@@ -366,8 +369,12 @@ width: 100%;
        font-size: 50px;
    }
 
+   .footer-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 0px;
+
+   }
   }
    
- @media only screen and (min-width: 577px) and (max-width: 992px){
- 
- }
