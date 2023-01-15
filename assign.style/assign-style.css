@@ -1,0 +1,116 @@
+body{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/*------------------ header and nav style start --------------------- */
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container-1{
+font-family: 'Work Sans', sans-serif;
+font-weight: 700;
+font-size: 45px;
+color: #131313;
+
+}
+
+ .items{
+    display: flex;
+    gap: 30px ;
+    list-style: none;
+}
+.items a{
+    text-decoration: none;
+    font-size: 18px;
+font-weight: 500;
+color: #424242; 
+}
+/* ---------------------------header and nav style done ------------------------ */
+/* ------------------------main part + banner style start ------------------------*/
+main{
+    text-align: center;
+
+}
+.main-title{
+    font-weight: 700;
+    font-style: bold;
+    font-size: 64px;
+    color: #131313;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+
+}
+.main-para{
+    font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+color: #727272;
+padding-bottom: 32px;
+}
+.btn{
+    width: 180px;
+padding: 20px;
+background-color:#FF900E;
+border-radius: 8px;
+color: #FFFFFF;
+margin-bottom: 50px;
+border-style: none;
+font-size: 20px;
+font-weight: 600;
+
+}
+.main-img{
+width: 100%;
+border-radius: 8px;
+}
+/* ------------------------main part + banner style done ------------------------*/
+/*----------------------- features section style start-------------------------- */
+
+.features{
+    display: flex;
+    gap: 73px;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding-left: 150px;
+    padding-right: 100px;
+    padding-top: 87px;
+}
+.features-1{
+    display: grid;
+    grid-gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.features-title{
+font-size: 45px;
+font-weight: 500;
+font-size: 45px;
+color: #FF900E;
+margin-top: 45px;
+margin-bottom: 30px;
+}
+.quick-list{
+    color: #727272 ;
+}
+.of-our{
+    color: #131313;
+}
+.features-para{
+    font-size: 16px;
+font-weight: 400;
+color: #727272;
+padding-bottom: 15px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 320px) {
+    
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px){
+
+}
